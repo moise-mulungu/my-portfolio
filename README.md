@@ -28,7 +28,7 @@ I use this project to learn about Linters and Github Workflows.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/moise-mulungu/HelloMicroverse/issues).
+Feel free to check the [issues page](https://github.com/moise-mulungu/portfolio-mobile-version/issues).
 
 ## Show your support
 
