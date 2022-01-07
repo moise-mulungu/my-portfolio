@@ -39,8 +39,6 @@ img {
   font-size: 56px;
   font-family: 'Crete Round', serif;
   margin: 10px 24px 10px 24px;
-
-  /* align-self: flex-start; */
 }
 
 h3 {
@@ -82,8 +80,6 @@ ul {
   flex-direction: row;
   align-items: flex-start;
   padding-left: 0;
-
-  /* padding-right: 100px; */
   gap: 26px;
 }
 
@@ -97,9 +93,4 @@ ul li a {
 
 ul :hover {
   background-color: aquamarine;
-}
-
-.icon {
-  width: 30px;
-  height: 30px;
 }
