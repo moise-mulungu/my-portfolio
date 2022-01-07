@@ -14,10 +14,6 @@ header {
   padding-bottom: 120px;
   width: 375px;
   height: 590px;
-
-  /* margin-left: 24px; */
-
-  /* margin-right: 24px; */
 }
 
 .toolbar {
@@ -46,7 +42,8 @@ img {
 
   /* align-self: flex-start; */
 }
-h3{
+
+h3 {
   color: #fff5e1;
   font-size: 16px;
 }
@@ -64,6 +61,7 @@ h2 {
   color: #dbd8d7;
   padding-left: 30px;
 }
+
 p {
   color: #fff;
   font-size: 20px;
