@@ -1,8 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
 body {
-    color: #1C1A19;
-    width: 315px;
-    height: 590px;
-    fill: solid;
-    left: 0px;
-    right: 92px;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1c1a19;
+  background-image: url("Group.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  width: 375px;
+  height: 590px;
+
+  /* margin-left: 24px; */
+
+  /* margin-right: 24px; */
+}
+
+.toolbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #3c3a3c;
+}
+
+.bars {
+  color: #dbd8d7;
+  padding-right: 30px;
+}
+
+img {
+  color: #fff;
+}
+
+.intro {
+  color: #ff6b00;
+  font-size: 56px;
+  font-family: 'Crete Round', serif;
+  margin: 10px 24px 10px 24px;
+
+  /* align-self: flex-start; */
+}
+
+h2 {
+  color: #fff5e1;
+  font-size: 26px;
+  font-family: sans-serif;
+  margin: 10px 24px 10px 24px;
+}
+
+h3 {
+  font-size: 16px;
+  text-decoration: none;
+  color: #dbd8d7;
+  padding-left: 30px;
+}
+
+h3 :hover {
+  color: aquamarine;
+}
+
+p {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 10px 24px 10px 24px;
+}
+
+a {
+  color: #dbd8d7;
+}
+
+.contacts {
+  margin: 10px 24px 10px 24px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-left: 0;
+
+  /* padding-right: 100px; */
+  gap: 26px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+ul :hover {
+  background-color: aquamarine;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
 }
