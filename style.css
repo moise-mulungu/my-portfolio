@@ -4,8 +4,15 @@ body {
   margin: 0;
   padding: 0;
 }
-
-header {
+.toolbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #3c3a3c;
+}
+.main {
   background-color: #1c1a19;
   background-image: url("Group.png");
   background-repeat: no-repeat;
@@ -15,59 +22,45 @@ header {
   width: 375px;
   height: 590px;
 }
-
-.toolbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  background-color: #3c3a3c;
-}
-
 .bars {
   color: #dbd8d7;
   padding-right: 30px;
 }
-
-img {
-  color: #fff;
-}
-
 .intro {
   color: #ff6b00;
-  font-size: 56px;
+  font-size: 52px;
   font-family: 'Crete Round', serif;
   margin: 10px 24px 10px 24px;
+  font-style: normal;
 }
-
-h3 {
+.title {
   color: #fff5e1;
-  font-size: 16px;
-}
-
-h2 {
-  color: #fff5e1;
-  font-size: 26px;
-  font-family: sans-serif;
+  font-size: 22px;
+  font-family: roboto;
   margin: 10px 24px 10px 24px;
+  font-family: 'Crete Round', serif;
 }
 
 .logo {
   font-size: 16px;
   text-decoration: none;
   color: #dbd8d7;
-  padding-left: 30px;
+  padding-left: 10px;
+  height: 30px;
+  width: 280px;
 }
 
-p {
+.text {
   color: #fff;
-  font-size: 20px;
+  font-size: 16px;
   font-family: 'Times New Roman', Times, serif;
   margin: 10px 24px 10px 24px;
+  height: 100px;
+  width: 327px;
+  padding-right: 10px;
 }
 
-a {
+.contacts > a {
   color: #dbd8d7;
 }
 
@@ -75,7 +68,7 @@ a {
   margin: 10px 24px 10px 24px;
 }
 
-ul {
+.contacts > ul {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -83,14 +76,13 @@ ul {
   gap: 26px;
 }
 
-ul li {
+.contacts > ul li {
   list-style-type: none;
 }
 
-ul li a {
+.contacts > ul li a {
   text-decoration: none;
 }
-
-ul :hover {
-  background-color: aquamarine;
+.bars{
+  color:azure;
 }
