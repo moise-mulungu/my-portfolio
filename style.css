@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Poppins&display=swap');
 
 body {
   margin: 0;
   padding: 0;
 }
+
 .toolbar {
   display: flex;
   flex-direction: row;
@@ -12,60 +14,67 @@ body {
   width: 100%;
   background-color: #3c3a3c;
 }
+
 .main {
+  display: flex;
   background-color: #1c1a19;
   background-image: url("Group.png");
   background-repeat: no-repeat;
-  background-position: bottom right;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  background-position: bottom -60px right 60px;
   width: 375px;
   height: 590px;
+  flex-flow: column;
+  justify-content: center;
 }
+
 .bars {
-  color: #dbd8d7;
-  padding-right: 30px;
+  color: hsl(15, 5%, 85%);
+  padding-right: 90px;
 }
+
 .intro {
   color: #ff6b00;
   font-size: 52px;
   font-family: 'Crete Round', serif;
-  margin: 10px 24px 10px 24px;
+  margin: 10px 20px 10px 20px;
   font-style: normal;
+  width: 250px;
 }
+
 .title {
   color: #fff5e1;
   font-size: 22px;
-  font-family: roboto;
-  margin: 10px 24px 10px 24px;
+  margin: 10px 20px 10px 20px;
   font-family: 'Crete Round', serif;
+  width: 255px;
 }
 
 .logo {
   font-size: 16px;
   text-decoration: none;
   color: #dbd8d7;
-  padding-left: 10px;
-  height: 30px;
-  width: 280px;
+  padding-left: 20px;
 }
 
 .text {
   color: #fff;
-  font-size: 16px;
-  font-family: 'Times New Roman', Times, serif;
-  margin: 10px 24px 10px 24px;
-  height: 100px;
-  width: 327px;
-  padding-right: 10px;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  margin: 10px 20px 10px 20px;
+  width: 290px;
 }
 
-.contacts > a {
+.contacts > ul > li > a {
   color: #dbd8d7;
 }
 
 .contacts {
-  margin: 10px 24px 10px 24px;
+  display: flex;
+  justify-content: inherit;
+  width: 180px;
+  height: 22px;
+  margin-left: 24px;
+  color: #dbd8d7;
 }
 
 .contacts > ul {
@@ -73,16 +82,9 @@ body {
   flex-direction: row;
   align-items: flex-start;
   padding-left: 0;
-  gap: 26px;
+  gap: 16px;
 }
 
-.contacts > ul li {
+.contacts > ul > li {
   list-style-type: none;
-}
-
-.contacts > ul li a {
-  text-decoration: none;
-}
-.bars{
-  color:azure;
 }
