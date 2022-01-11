@@ -2,7 +2,7 @@
 
 # Portfolio: setup a Mobile Version Skeleton
 
-> This is my second project called on how to design a Portfolio.
+> This is my second project on how to design a Portfolio.
 
 ![screenshot](./appScreenshot.png)
 
