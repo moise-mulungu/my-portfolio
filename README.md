@@ -15,7 +15,6 @@ I use this project to learn about Linters and Github Workflows.
 - Visual Studio Code
 
 
-
 ## Author
 
 👤 **Moise Mulungu**

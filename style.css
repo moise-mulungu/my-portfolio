@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin: 0;
   padding: 0;
 }
@@ -10,81 +14,74 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  width: 100%;
   background-color: #3c3a3c;
+  color: azure;
 }
 
 .main {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: #1c1a19;
+  color: azure;
+  padding: 120px 24px 120px 24px;
   background-image: url("Group.png");
   background-repeat: no-repeat;
-  background-position: bottom -60px right 60px;
-  width: 375px;
-  height: 590px;
-  flex-flow: column;
-  justify-content: center;
+  background-position: bottom -36px right;
+  max-width: 100%;
 }
 
 .bars {
-  color: hsl(15, 5%, 85%);
-  padding-right: 90px;
+  margin-top: 30px;
+  padding-right: 20px;
 }
 
 .intro {
   color: #ff6b00;
-  font-size: 52px;
+  font-size: 56px;
   font-family: 'Crete Round', serif;
-  margin: 10px 20px 10px 20px;
-  font-style: normal;
-  width: 250px;
+  font-weight: 400;
+  letter-spacing: 0.37px;
+  line-height: 64px;
+  margin-bottom: 0;
 }
 
 .title {
   color: #fff5e1;
-  font-size: 22px;
-  margin: 10px 20px 10px 20px;
-  font-family: 'Crete Round', serif;
-  width: 255px;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 32px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 0;
 }
 
 .logo {
-  font-size: 16px;
+  font-size: 22px;
   text-decoration: none;
-  color: #dbd8d7;
   padding-left: 20px;
 }
 
 .text {
-  color: #fff;
-  font-size: 14px;
+  font-size: 16px;
   font-family: 'Poppins', sans-serif;
-  margin: 10px 20px 10px 20px;
-  width: 290px;
-}
-
-.contacts > ul > li > a {
-  color: #dbd8d7;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
 }
 
 .contacts {
   display: flex;
-  justify-content: inherit;
-  width: 180px;
-  height: 22px;
-  margin-left: 24px;
-  color: #dbd8d7;
-}
-
-.contacts > ul {
-  display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding-left: 0;
   gap: 16px;
+  padding-left: 20px;
 }
 
-.contacts > ul > li {
+.contacts > li {
   list-style-type: none;
+}
+
+.contacts > li > a {
+  color: #dbd8d7;
 }
