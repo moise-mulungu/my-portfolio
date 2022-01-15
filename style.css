@@ -401,6 +401,9 @@ body {
 .web > li:hover {
   border: 2px solid blue;
 }
+.web2 > li:hover {
+  border: 2px solid blue;
+}
 
 .contact-form {
   display: grid;
