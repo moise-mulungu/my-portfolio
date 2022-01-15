@@ -133,6 +133,10 @@ body {
   color: #f4f5f7;
 }
 
+.click:hover {
+  border: 2px solid blue;
+}
+
 .click2 {
   width: 327px;
   height: 48px;
@@ -140,6 +144,10 @@ body {
   background: #ff6b00;
   border-color: transparent;
   color: #f4f5f7;
+}
+
+.click2:hover {
+  border: 2px solid blue;
 }
 
 .post {
@@ -166,37 +174,51 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding-bottom: 20px;
+
+  /* padding-bottom: 20px; */
   font-family: 'Inter', sans-serif;
   font-size: 15px;
   line-height: 20px;
   line-height: 110%;
-  vertical-align: top;
   color: #091e42;
+  padding: 0 60px 0 0;
+  gap: 12px;
 }
 
-.web :hover {
-  border: 2px solid blue;
+.web > li {
+  padding-top: 10px;
 }
 
 .web > .css {
   width: 49px;
-  height: 40px;
+  height: 30px;
+  list-style: none;
+  border: 1px solid black;
+  text-align: center;
 }
 
 .web > .html {
   width: 56px;
-  height: 40px;
+  height: 30px;
+  list-style: none;
+  border: 1px solid black;
+  text-align: center;
 }
 
 .web > .boot {
   width: 95px;
-  height: 40px;
+  height: 30px;
+  list-style: none;
+  border: 1px solid black;
+  text-align: center;
 }
 
 .web > .ruby {
   width: 61px;
-  height: 40px;
+  height: 30px;
+  list-style: none;
+  border: 1px solid black;
+  text-align: center;
 }
 
 .data {
@@ -236,29 +258,31 @@ body {
   padding-bottom: 20px;
 }
 
-.web2 :hover {
-  border: 2px solid blue;
-}
-
 .web2 > .html {
   width: 56px;
-  height: 40px;
+  height: 30px;
   background-color: rgba(255, 255, 255, 0.24);
   color: #fff;
+  list-style: none;
+  text-align: center;
 }
 
 .web2 > .boot {
   width: 95px;
-  height: 40px;
+  height: 30px;
   background-color: rgba(255, 255, 255, 0.24);
   color: #fff;
+  list-style: none;
+  text-align: center;
 }
 
 .web2 > .ruby {
   width: 61px;
-  height: 40px;
+  height: 30px;
   background-color: rgba(255, 255, 255, 0.24);
   color: #fff;
+  list-style: none;
+  text-align: center;
 }
 
 .about-myself {
@@ -308,6 +332,10 @@ body {
   background: #ff6b00;
   border-color: transparent;
   color: #f4f5f7;
+}
+
+.click3:hover {
+  border: 2px solid blue;
 }
 
 .line2 {
@@ -366,6 +394,14 @@ body {
   padding: 12px;
 }
 
+.web2 > li {
+  padding-top: 10px;
+}
+
+.web > li:hover {
+  border: 2px solid blue;
+}
+
 .contact-form {
   display: grid;
   grid-template-columns: 327px;
@@ -391,6 +427,10 @@ body {
   border: transparent;
   color: #fff;
   font-weight: 700;
+}
+
+.touch:hover {
+  border: 2px solid blue;
 }
 
 .footer {
@@ -437,6 +477,7 @@ body {
   text-align: start;
   margin-top: 20px;
   border: transparent;
+  background-color: #fbf8f7;
 }
 
 .box:hover {
