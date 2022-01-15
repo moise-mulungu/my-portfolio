@@ -132,7 +132,6 @@ body {
   border-color: transparent;
   color: #f4f5f7;
 }
-
 .click2 {
   width: 327px;
   height: 48px;
@@ -141,7 +140,6 @@ body {
   border-color: transparent;
   color: #f4f5f7;
 }
-
 .post {
   font-family: 'Crete Round', serif;
   font-style: normal;
@@ -173,6 +171,9 @@ body {
   line-height: 110%;
   vertical-align: top;
   color: #091e42;
+}
+.web :hover {
+  border: 2px solid blue;
 }
 
 .web > .css {
@@ -230,6 +231,9 @@ body {
   line-height: 110%;
   color: #fff;
   padding-bottom: 20px;
+}
+.web2 :hover {
+  border: 2px solid blue;
 }
 
 .web2 > .html {
