@@ -398,12 +398,19 @@ body {
   padding-top: 10px;
 }
 
-.web > li:hover {
-  border: 2px solid blue;
+.click:hover,
+.click2:hover,
+.click3:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
 }
 
-.web2 > li:hover {
-  border: 2px solid blue;
+.click:active,
+.click2:active,
+.click3:active {
+  background: #e05304;
+  color: #f4f1f0;
 }
 
 .contact-form {
@@ -434,7 +441,14 @@ body {
 }
 
 .touch:hover {
-  border: 2px solid blue;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+.touch:active {
+  background: #e05304;
+  color: #f4f1f0;
 }
 
 .footer {
