@@ -1,19 +1,18 @@
 ![](file:///home/moise/portfolio-mobile-version/index.html)
 
-# Portfolio: setup a Mobile Version Skeleton
+# Portfolio: Mobile Version
 
-> This is my second project on how to design a Portfolio.
+> This is my third project on how to design a Portfolio.
 
-![screenshot](./appScreenshot.png)
+![screenshot](./appscreenshot.png)
 
-I use this project to learn about Linters and Github Workflows.
+I use this project to learn about Linters, Github Workflows, Css grid/flexbox and hover.
 
 ## Built With
 
 - HTML
-- CSS
+- CSS (grid, flexbox)
 - Visual Studio Code
-
 
 ## Author
 
@@ -26,8 +25,6 @@ I use this project to learn about Linters and Github Workflows.
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/moise-mulungu/portfolio-mobile-version/issues).
 
 ## Show your support
 
