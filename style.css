@@ -427,6 +427,7 @@ body {
   font-style: normal;
   line-height: 44px;
   line-height: 114%;
+  text-align: center;
 }
 
 .touch {
@@ -475,10 +476,11 @@ body {
 }
 
 .line3 {
-  width: 100%;
+  width: 125%;
   border: 1px solid #172b4d;
   align-self: flex-start;
   margin-top: 25px;
+  margin-left: -24px;
 }
 
 .input {
