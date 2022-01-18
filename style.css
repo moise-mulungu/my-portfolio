@@ -414,8 +414,9 @@ body {
 }
 
 .contact-form {
-  display: grid;
-  grid-template-columns: 327px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 120px 24px 20px 24px;
 }
 

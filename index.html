@@ -210,23 +210,23 @@
             <li>Terminal</li>
         </ul>
     </section>
-    <section class="contact-form">
+    <footer class="contact-form">
         <h2 class="view">I'm always<br>
             interested in hearing<br>
             about new projects,<br>
             so if you'd like to<br>
             chat please get in
         </h2>
-        <form>
-            <input type="text" class="input" placeholder="Full name">
+        <form action="https://formspree.io/f/xzbodvoe" method="post">
+            <input type="text" class="input" placeholder="Full name" required maxlength="30">
             <hr>
-            <input type="text" class="input" placeholder="Email address">
+            <input type="email" class="input" placeholder="Email address" required>
             <hr>
-            <textarea class="box" placeholder="Enter text here"></textarea>
+            <textarea class="box" placeholder="Enter text here" required maxlength="500"></textarea>
+            <button type="button" class="touch">Get in touch</button>
         </form>
-        <button class="touch">Get in touch</button>
         <hr class="line3">
-        <footer class="footer">
+        <div class="footer">
             <ul class="contact">
                 <li><a href="https://github.com/moise-mulungu/portfolio-mobile-version"><i class="fab fa-github"></i></a></li>
                 <li><a href="https://www.linkedin.com/in/mo%C3%AFse-mulungu-a939831b2/"><i class="fab fa-linkedin"></i></a></li>
@@ -234,8 +234,8 @@
                 <li><a href="https://twitter.com/moise_mulungu"><i class="fab fa-twitter"></i></a></li>
                 <li><a href="#"><i class="fab fa-medium-m"></i></a></li>
             </ul>
-        </footer>
+        </div>
         <hr class="line4">
-    </section>
+    </footer>
 </body>
 </html>
