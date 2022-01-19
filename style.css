@@ -109,14 +109,14 @@ body {
   align-self: center;
 }
 
-.card1 {
+.card-one {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-top: 80px;
 }
 
-.card2 {
+.card-two {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -137,7 +137,7 @@ body {
   border: 2px solid blue;
 }
 
-.click2 {
+.click-two {
   width: 327px;
   height: 48px;
   text-align: center;
@@ -146,7 +146,7 @@ body {
   color: #f4f5f7;
 }
 
-.click2:hover {
+.click-two:hover {
   border: 2px solid blue;
 }
 
@@ -160,7 +160,7 @@ body {
   font-weight: 400;
 }
 
-.para1 {
+.para-one {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-size: 16px;
@@ -232,7 +232,7 @@ body {
   color: #fff;
 }
 
-.para2 {
+.para-two {
   padding: 0 16px 0 16px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -243,7 +243,7 @@ body {
   color: #fff;
 }
 
-.web2 {
+.web-two {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -258,7 +258,7 @@ body {
   padding-bottom: 20px;
 }
 
-.web2 > .html {
+.web-two > .html {
   width: 56px;
   height: 30px;
   background-color: rgba(255, 255, 255, 0.24);
@@ -267,7 +267,7 @@ body {
   text-align: center;
 }
 
-.web2 > .boot {
+.web-two > .boot {
   width: 95px;
   height: 30px;
   background-color: rgba(255, 255, 255, 0.24);
@@ -276,7 +276,7 @@ body {
   text-align: center;
 }
 
-.web2 > .ruby {
+.web-two > .ruby {
   width: 61px;
   height: 30px;
   background-color: rgba(255, 255, 255, 0.24);
@@ -316,7 +316,7 @@ body {
   margin-bottom: 0;
 }
 
-.para3 {
+.para-three {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-size: 16px;
@@ -325,7 +325,7 @@ body {
   color: #f4f5f7;
 }
 
-.click3 {
+.click-three {
   width: 161px;
   height: 48px;
   text-align: center;
@@ -334,20 +334,20 @@ body {
   color: #f4f5f7;
 }
 
-.click3:hover {
+.click-three:hover {
   border: 2px solid blue;
 }
 
-.line2 {
+.line-two {
   width: 327px;
   color: #212121;
   align-self: flex-start;
   margin-left: 5px;
 }
 
-.list1,
-.list2,
-.list3 {
+.list-one,
+.list-two,
+.list-three {
   list-style: none;
   color: #fff;
   font-size: 22px;
@@ -355,7 +355,7 @@ body {
   padding: 12px;
 }
 
-.list1 > .language {
+.list-one > .language {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -364,7 +364,7 @@ body {
   color: #fff;
 }
 
-.list2 > .frameworks {
+.list-two > .frameworks {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -373,7 +373,7 @@ body {
   color: #fff;
 }
 
-.list3 > .skills {
+.list-three > .skills {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -382,40 +382,41 @@ body {
   color: #fff;
 }
 
-.list1 > li {
+.list-one > li {
   padding: 12px;
 }
 
-.list2 > li {
+.list-two > li {
   padding: 12px;
 }
 
-.list3 > li {
+.list-three > li {
   padding: 12px;
 }
 
-.web2 > li {
+.web-two > li {
   padding-top: 10px;
 }
 
 .click:hover,
-.click2:hover,
-.click3:hover {
+.click-two:hover,
+.click-three:hover {
   background: #fff5e1;
   border: 1px solid #f55800;
   color: #f55800;
 }
 
 .click:active,
-.click2:active,
-.click3:active {
+.click-two:active,
+.click-three:active {
   background: #e05304;
   color: #f4f1f0;
 }
 
 .contact-form {
-  display: grid;
-  grid-template-columns: 327px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 120px 24px 20px 24px;
 }
 
@@ -427,6 +428,7 @@ body {
   font-style: normal;
   line-height: 44px;
   line-height: 114%;
+  text-align: center;
 }
 
 .touch {
@@ -474,11 +476,12 @@ body {
   color: blue;
 }
 
-.line3 {
-  width: 100%;
+.line-three {
+  width: 125%;
   border: 1px solid #172b4d;
   align-self: flex-start;
   margin-top: 25px;
+  margin-left: -24px;
 }
 
 .input {
@@ -502,7 +505,7 @@ body {
   border: 2px solid blue;
 }
 
-.line4 {
+.line-four {
   width: 160px;
   border: 5px solid black;
   border-radius: 4px;
