@@ -21,7 +21,7 @@ body {
 
 .main {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   justify-content: center;
   background-color: #1c1a19;
   color: azure;
@@ -32,9 +32,23 @@ body {
   max-width: 100%;
 }
 
-.bars {
-  margin-top: 30px;
-  padding-right: 20px;
+.bars > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 22px;
+  list-style-type: none;
+  padding-right: 30px;
+ 
+}
+
+.bars > ul > li > a {
+  text-decoration: none;
+  color: #fbf8f7;
+}
+
+.bars > ul > li > a {
+  display: none;
 }
 
 .intro {
@@ -57,10 +71,12 @@ body {
   margin-bottom: 0;
 }
 
-.logo {
+.logo > a {
   font-size: 22px;
   text-decoration: none;
   padding-left: 20px;
+  list-style-type: none;
+  color: #fff5e1;
 }
 
 .text {
@@ -509,4 +525,296 @@ body {
   width: 160px;
   border: 5px solid black;
   border-radius: 4px;
+}
+
+@media screen and (min-width: 992px) {
+  .bars > ul > li > a {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 100px;
+    color: azure;
+    padding-right: 50%;
+    background-image: url("Group-all.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+
+  .unordered > .contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 22px;
+    margin-top: 100px;
+    color: #fff5e1;
+  }
+
+  .works {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 130px 140px 130px 140px;
+  }
+
+  .part-one {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  
+  .title-one {
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 52px;
+    color: #1c1a19;
+    font-weight: 400;
+  }
+  
+  .line {
+    width: 327px;
+    color: #212121;
+    align-self: center;
+  }
+  
+  .part-two {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 8px;
+  }
+  
+  .card-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .post {
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 44px;
+    line-height: 108%;
+    color: #091e42;
+    font-weight: 400;
+  }
+  
+  .para-one {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 124%;
+    vertical-align: top;
+    color: #091e42;
+  }
+  
+  .web {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+    padding-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    line-height: 110%;
+    color: #091e42;
+    padding: 0 60px 0 0;
+    gap: 12px;
+  }
+  
+  .web > li {
+    padding-top: 10px;
+  }
+  
+  .web > .css {
+    width: 49px;
+    height: 30px;
+    list-style: none;
+    border: 1px solid black;
+    text-align: center;
+  }
+  
+  .web > .html {
+    width: 56px;
+    height: 30px;
+    list-style: none;
+    border: 1px solid black;
+    text-align: center;
+  }
+  
+  .web > .boot {
+    width: 95px;
+    height: 30px;
+    list-style: none;
+    border: 1px solid black;
+    text-align: center;
+  }
+  
+  .web > .ruby {
+    width: 61px;
+    height: 30px;
+    list-style: none;
+    border: 1px solid black;
+    text-align: center;
+  }
+  
+  .click {
+    width: 124px;
+    height: 48px;
+    text-align: center;
+    background: #ff6b00;
+    border-color: transparent;
+    color: #f4f5f7;
+  }
+  
+  .click:hover {
+    border: 2px solid blue;
+  }
+  
+  .part-three {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 12px;
+  }
+  
+  .card-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("backimg.png");
+    background-repeat: no-repeat;
+  }
+  
+  .data {
+    padding: 0 16px 0 16px;
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 44px;
+    line-height: 108%;
+    vertical-align: top;
+    color: #fff;
+  }
+  
+  .para-two {
+    padding: 0 16px 0 16px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 124%;
+    vertical-align: top;
+    color: #fff;
+  }
+  
+  .web-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 16px 0 16px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 20px;
+    line-height: 110%;
+    color: #fff;
+    padding-bottom: 20px;
+  }
+  
+  .web-two > .html {
+    width: 56px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.24);
+    color: #fff;
+    list-style: none;
+    text-align: center;
+  }
+  
+  .web-two > .boot {
+    width: 95px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.24);
+    color: #fff;
+    list-style: none;
+    text-align: center;
+  }
+  
+  .web-two > .ruby {
+    width: 61px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.24);
+    color: #fff;
+    list-style: none;
+    text-align: center;
+  }
+  
+  .click-two {
+    width: 327px;
+    height: 48px;
+    text-align: center;
+    background: #ff6b00;
+    border-color: transparent;
+    color: #f4f5f7;
+  }
+  
+  .click-two:hover {
+    border: 2px solid blue;
+  }
+
+  .about-myself {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1c1a19;
+  }
+
+  .myself {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 142px;
+    background-image: url("Group1.png");
+    background-repeat: no-repeat;
+  }
+ 
+  .line-two {
+    width: 100%;
+    color: #212121;
+    align-self: flex-start;
+  }
+
+  .full-list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 26px;
+    padding-top: 60px;
+    padding-bottom: 66px;
+  }
+
+  .contact-form {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+
+  .view-form {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 135px;
+    padding-right: 142px;
+    gap: 22px;
+  }
+
+
+  
+
+  .mobile-nav {
+    display: none;
+  }
+
 }
