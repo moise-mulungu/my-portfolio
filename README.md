@@ -2,11 +2,11 @@
 
 # Portfolio: Mobile Version
 
-> This is my third project on how to design a Portfolio.
+> This is my Portfolio Desktop project.
 
-![screenshot](./appscreenshot.png)
+![screenshot](./apScreenshot.png)
 
-I use this project to learn about Linters, Github Workflows, Css grid/flexbox and hover.
+I use this project to learn about Linters, Github Workflows, Css grid/flexbox, image query and hover.
 
 ## Built With
 
