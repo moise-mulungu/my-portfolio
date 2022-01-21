@@ -1,0 +1,114 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 120px 24px 20px 24px;
+  }
+  
+  .view {
+    color: #172b4d;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 44px;
+    line-height: 114%;
+    text-align: center;
+  }
+  
+  .touch {
+    width: 131px;
+    height: 48px;
+    background-color: #ff6b00;
+    margin: 30px 90px 100px 90px;
+    text-align: center;
+    border: transparent;
+    color: #fff;
+    font-weight: 700;
+  }
+  
+  .touch:hover {
+    background: #fff5e1;
+    border: 1px solid #f55800;
+    color: #f55800;
+  }
+  
+  .touch:active {
+    background: #e05304;
+    color: #f4f1f0;
+  }
+  
+  .footer {
+    border-color: black;
+  }
+  
+  .footer > .contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    margin: 20px 70px 10px 50px;
+    list-style: none;
+  }
+  
+  .contact > li > a {
+    width: 26px;
+    height: 26px;
+    color: #505f79;
+  }
+  
+  .web > a :hover {
+    color: blue;
+  }
+  
+  .line-three {
+    width: 125%;
+    border: 1px solid #172b4d;
+    align-self: flex-start;
+    margin-top: 25px;
+    margin-left: -24px;
+  }
+  
+  .input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    padding: 22px 0 12px 0;
+  }
+  
+  .box {
+    width: 327px;
+    height: 114px;
+    text-align: start;
+    margin-top: 20px;
+    border: transparent;
+    background-color: #fbf8f7;
+  }
+  
+  .box:hover {
+    border: 2px solid blue;
+  }
+  
+  .line-four {
+    width: 160px;
+    border: 5px solid black;
+    border-radius: 4px;
+  }
+
+  @media screen and (min-width: 992px) {
+
+    .contact-form {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+      }
+      .view-form {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding-left: 135px;
+        padding-right: 142px;
+        gap: 22px;
+      }
+      
+  }
