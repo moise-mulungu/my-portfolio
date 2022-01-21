@@ -126,34 +126,42 @@
     color: #f4f1f0;
   }
 
-  @media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {
 
-    .about-myself {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background-color: #1c1a19;
-      }
-      .myself {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-left: 142px;
-        background-image: url("Group1.png");
-        background-repeat: no-repeat;
-      }
-      
-      .line-two {
-        width: 100%;
-        color: #212121;
-        align-self: flex-start;
-      }
-      .full-list {
-        display: grid;
-        grid-template-columns: auto auto auto;
-        gap: 26px;
-        padding-top: 60px;
-        padding-bottom: 66px;
-      }
-      
+  .about-myself {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1c1a19;
   }
+  
+  .myself {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 142px;
+    background-image: url("Group1.png");
+    background-repeat: no-repeat;
+  }
+
+  .myself {
+    background-image: url("Group-all2.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+      
+  .line-two {
+    width: 100%;
+    color: #212121;
+    align-self: flex-start;
+  }
+
+  .full-list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 26px;
+    padding-top: 60px;
+    padding-bottom: 66px;
+  }
+      
+}
