@@ -1,11 +1,11 @@
 .toolbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #3c3a3c;
-    color: azure;
-  }
-  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #3c3a3c;
+  color: azure;
+}
+
 .main {
   display: flex;
   flex-direction: column-reverse;
@@ -18,7 +18,7 @@
   background-position: bottom -36px right;
   max-width: 100%;
 }
-  
+
 .bars > ul {
   display: flex;
   flex-direction: row;
@@ -26,12 +26,18 @@
   gap: 22px;
   list-style-type: none;
   padding-right: 30px;
-   
 }
-  
-.bars > ul > li > a {
+
+.logo > a {
+  font-size: 22px;
   text-decoration: none;
-  color: #fbf8f7;
+  padding-left: 20px;
+  list-style-type: none;
+  color: #fff5e1;
+}
+
+.contacts > li > a {
+  color: #dbd8d7;
 }
 
 .bars > ul > li > a {
@@ -41,8 +47,7 @@
 .bars > ul > .a {
   display: flex;
 }
-  
- 
+
 .intro {
   color: #ff6b00;
   font-size: 56px;
@@ -52,7 +57,7 @@
   line-height: 64px;
   margin-bottom: 0;
 }
-  
+
 .title {
   color: #fff5e1;
   font-size: 24px;
@@ -62,15 +67,7 @@
   font-weight: 700;
   margin-bottom: 0;
 }
-  
-.logo > a {
-  font-size: 22px;
-  text-decoration: none;
-  padding-left: 20px;
-  list-style-type: none;
-  color: #fff5e1;
-}
-  
+
 .text {
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
@@ -78,7 +75,7 @@
   font-style: normal;
   line-height: 24px;
 }
-  
+
 .contacts {
   display: flex;
   flex-direction: row;
@@ -86,17 +83,12 @@
   gap: 16px;
   padding-left: 20px;
 }
-  
+
 .contacts > li {
   list-style-type: none;
 }
-  
-.contacts > li > a {
-  color: #dbd8d7;
-}
 
 @media screen and (min-width: 992px) {
-
   .toolbar {
     display: flex;
     flex-direction: row;
@@ -109,21 +101,20 @@
   .bars > ul > li > a {
     display: flex;
     justify-content: center;
+    text-decoration: none;
+    color: #fff5e1;
   }
 
-  .bars > ul > .a{
+  .bars > ul > .a {
     display: none;
   }
-      
+
   .main {
     display: grid;
     grid-template-columns: auto auto;
     gap: 100px;
     color: azure;
     padding-right: 50%;
-  }
-
-  .main {
     background-image: url("Group-all.png");
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -138,4 +129,3 @@
     color: #fff5e1;
   }
 }
-  

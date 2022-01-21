@@ -1,156 +1,150 @@
 .about-myself {
-    display: grid;
-    grid-template-columns: auto;
-    background-color: #1c1a19;
-    padding: 0 24px 0 24px;
-    width: inherit;
-  }
-  
-  .myself {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 100px;
-    padding-bottom: 160px;
-    background-image: url("Group1.png");
-    background-repeat: no-repeat;
-    background-position: bottom 20px right;
-  }
-  
-  .me {
-    font-family: 'Crete Round', serif;
-    font-style: normal;
-    font-size: 72px;
-    line-height: 88px;
-    line-height: 96%;
-    letter-spacing: 0.37px;
-    color: #ff6b00;
-    margin-top: 72px;
-    margin-bottom: 0;
-  }
-  
-  .para-three {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 24px;
-    line-height: 124%;
-    color: #f4f5f7;
-  }
-  
-  .click-three {
-    width: 161px;
-    height: 48px;
-    text-align: center;
-    background: #ff6b00;
-    border-color: transparent;
-    color: #f4f5f7;
-  }
-  
-  .click-three:hover {
-    border: 2px solid blue;
-  }
-  
-  .line-two {
-    width: 327px;
-    color: #212121;
-    align-self: flex-start;
-    margin-left: 5px;
-  }
-  
-  .list-one,
-  .list-two,
-  .list-three {
-    list-style: none;
-    color: #fff;
-    font-size: 22px;
-    text-align: center;
-    padding: 12px;
-  }
-  
-  .list-one > .language {
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 32px;
-    line-height: 44px;
-    color: #fff;
-  }
-  
-  .list-two > .frameworks {
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 32px;
-    line-height: 44px;
-    color: #fff;
-  }
-  
-  .list-three > .skills {
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 32px;
-    line-height: 44px;
-    color: #fff;
-  }
-  
-  .list-one > li {
-    padding: 12px;
-  }
-  
-  .list-two > li {
-    padding: 12px;
-  }
-  
-  .list-three > li {
-    padding: 12px;
-  }
-  
-  .web-two > li {
-    padding-top: 10px;
-  }
-  
-  .click:hover,
-  .click-two:hover,
-  .click-three:hover {
-    background: #fff5e1;
-    border: 1px solid #f55800;
-    color: #f55800;
-  }
-  
-  .click:active,
-  .click-two:active,
-  .click-three:active {
-    background: #e05304;
-    color: #f4f1f0;
-  }
+  display: grid;
+  grid-template-columns: auto;
+  background-color: #1c1a19;
+  padding: 0 24px 0 24px;
+  width: inherit;
+}
+
+.myself {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 160px;
+  background-image: url("Group1.png");
+  background-repeat: no-repeat;
+  background-position: bottom 20px right;
+}
+
+.me {
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-size: 72px;
+  line-height: 88px;
+  line-height: 96%;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  margin-top: 72px;
+  margin-bottom: 0;
+}
+
+.para-three {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 124%;
+  color: #f4f5f7;
+}
+
+.click-three {
+  width: 161px;
+  height: 48px;
+  text-align: center;
+  background: #ff6b00;
+  border-color: transparent;
+  color: #f4f5f7;
+}
+
+.click-three:hover {
+  border: 2px solid blue;
+}
+
+.line-two {
+  width: 327px;
+  color: #212121;
+  align-self: flex-start;
+  margin-left: 5px;
+}
+
+.list-one,
+.list-two,
+.list-three {
+  list-style: none;
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+  padding: 12px;
+}
+
+.list-one > .language {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+.list-two > .frameworks {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+.list-three > .skills {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+.list-one > li {
+  padding: 12px;
+}
+
+.list-two > li {
+  padding: 12px;
+}
+
+.list-three > li {
+  padding: 12px;
+}
+
+.web-two > li {
+  padding-top: 10px;
+}
+
+.click:hover,
+.click-two:hover,
+.click-three:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+.click:active,
+.click-two:active,
+.click-three:active {
+  background: #e05304;
+  color: #f4f1f0;
+}
 
 @media screen and (min-width: 992px) {
-
   .about-myself {
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: #1c1a19;
   }
-  
+
   .myself {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin-left: 142px;
     gap: 26px;
-    background-image: url("Group1.png");
-    background-repeat: no-repeat;
-  }
-
-  .myself {
     background-image: url("Group-all2.png");
     background-repeat: no-repeat;
     background-position: bottom right;
   }
-      
+
   .line-two {
     width: 100%;
     color: #212121;
@@ -165,9 +159,10 @@
     padding-bottom: 66px;
   }
 
-  .full-list > .list-one, .list-two, .list-three {
+  .full-list > .list-one,
+  .list-two,
+  .list-three {
     margin-left: 56px;
     text-align: left;
   }
-      
 }

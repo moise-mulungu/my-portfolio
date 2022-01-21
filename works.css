@@ -1,210 +1,209 @@
 .works {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 327px;
-    padding: 120px 24px 120px 24px;
-  }
-  
-  .title-one {
-    font-family: 'Crete Round', serif;
-    font-style: normal;
-    font-size: 40px;
-    line-height: 52px;
-    color: #1c1a19;
-    font-weight: 400;
-  }
-  
-  .line {
-    width: 327px;
-    color: #212121;
-    align-self: center;
-  }
-  
-  .card-one {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 80px;
-  }
-  
-  .x {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-image: url("backimg.png");
-    background-repeat: no-repeat;
-  }
-  
-  .click {
-    width: 124px;
-    height: 48px;
-    text-align: center;
-    background: #ff6b00;
-    border-color: transparent;
-    color: #f4f5f7;
-  }
-  
-  .click:hover {
-    border: 2px solid blue;
-  }
-  
-  .click-two {
-    width: 327px;
-    height: 48px;
-    text-align: center;
-    background: #ff6b00;
-    border-color: transparent;
-    color: #f4f5f7;
-  }
-  
-  .click-two:hover {
-    border: 2px solid blue;
-  }
-  
-  .post {
-    font-family: 'Crete Round', serif;
-    font-style: normal;
-    font-size: 32px;
-    line-height: 44px;
-    line-height: 108%;
-    color: #091e42;
-    font-weight: 400;
-  }
-  
-  .para-one {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 24px;
-    line-height: 124%;
-    vertical-align: top;
-    color: #091e42;
-  }
-  
-  .web {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-family: 'Inter', sans-serif;
-    font-size: 15px;
-    line-height: 20px;
-    line-height: 110%;
-    color: #091e42;
-    padding: 0 60px 0 0;
-    gap: 12px;
-  }
-  
-  .web > li {
-    padding-top: 10px;
-  }
-  
-  .web > .css {
-    width: 49px;
-    height: 30px;
-    list-style: none;
-    border: 1px solid black;
-    text-align: center;
-  }
-  
-  .web > .html {
-    width: 56px;
-    height: 30px;
-    list-style: none;
-    border: 1px solid black;
-    text-align: center;
-  }
-  
-  .web > .boot {
-    width: 95px;
-    height: 30px;
-    list-style: none;
-    border: 1px solid black;
-    text-align: center;
-  }
-  
-  .web > .ruby {
-    width: 61px;
-    height: 30px;
-    list-style: none;
-    border: 1px solid black;
-    text-align: center;
-  }
-  
-  .data {
-    padding: 0 16px 0 16px;
-    font-family: 'Crete Round', serif;
-    font-style: normal;
-    font-size: 32px;
-    line-height: 44px;
-    line-height: 108%;
-    vertical-align: top;
-    color: #fff;
-  }
-  
-  .para-two {
-    padding: 0 16px 0 16px;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 24px;
-    line-height: 124%;
-    vertical-align: top;
-    color: #fff;
-  }
-  
-  .web-two {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 0 16px 0 16px;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-size: 15px;
-    line-height: 20px;
-    line-height: 110%;
-    color: #fff;
-    padding-bottom: 20px;
-  }
-  
-  .web-two > .html {
-    width: 56px;
-    height: 30px;
-    background-color: rgba(255, 255, 255, 0.24);
-    color: #fff;
-    list-style: none;
-    text-align: center;
-  }
-  
-  .web-two > .boot {
-    width: 95px;
-    height: 30px;
-    background-color: rgba(255, 255, 255, 0.24);
-    color: #fff;
-    list-style: none;
-    text-align: center;
-  }
-  
-  .web-two > .ruby {
-    width: 61px;
-    height: 30px;
-    background-color: rgba(255, 255, 255, 0.24);
-    color: #fff;
-    list-style: none;
-    text-align: center;
-  }
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 327px;
+  padding: 120px 24px 120px 24px;
+}
 
-  .card-three > .y {
-    display: none;
-  }
+.title-one {
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 52px;
+  color: #1c1a19;
+  font-weight: 400;
+}
+
+.line {
+  width: 327px;
+  color: #212121;
+  align-self: center;
+}
+
+.card-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.x {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("backimg.png");
+  background-repeat: no-repeat;
+}
+
+.click {
+  width: 124px;
+  height: 48px;
+  text-align: center;
+  background: #ff6b00;
+  border-color: transparent;
+  color: #f4f5f7;
+}
+
+.click:hover {
+  border: 2px solid blue;
+}
+
+.click-two {
+  width: 327px;
+  height: 48px;
+  text-align: center;
+  background: #ff6b00;
+  border-color: transparent;
+  color: #f4f5f7;
+}
+
+.click-two:hover {
+  border: 2px solid blue;
+}
+
+.post {
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 44px;
+  line-height: 108%;
+  color: #091e42;
+  font-weight: 400;
+}
+
+.para-one {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 124%;
+  vertical-align: top;
+  color: #091e42;
+}
+
+.web {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  line-height: 110%;
+  color: #091e42;
+  padding: 0 60px 0 0;
+  gap: 12px;
+}
+
+.web > li {
+  padding-top: 10px;
+}
+
+.web > .css {
+  width: 49px;
+  height: 30px;
+  list-style: none;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.web > .html {
+  width: 56px;
+  height: 30px;
+  list-style: none;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.web > .boot {
+  width: 95px;
+  height: 30px;
+  list-style: none;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.web > .ruby {
+  width: 61px;
+  height: 30px;
+  list-style: none;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.data {
+  padding: 0 16px 0 16px;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 44px;
+  line-height: 108%;
+  vertical-align: top;
+  color: #fff;
+}
+
+.para-two {
+  padding: 0 16px 0 16px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 124%;
+  vertical-align: top;
+  color: #fff;
+}
+
+.web-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 16px 0 16px;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 20px;
+  line-height: 110%;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.web-two > .html {
+  width: 56px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.24);
+  color: #fff;
+  list-style: none;
+  text-align: center;
+}
+
+.web-two > .boot {
+  width: 95px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.24);
+  color: #fff;
+  list-style: none;
+  text-align: center;
+}
+
+.web-two > .ruby {
+  width: 61px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.24);
+  color: #fff;
+  list-style: none;
+  text-align: center;
+}
+
+.card-three > .y {
+  display: none;
+}
 
 @media screen and (min-width: 992px) {
-
   .works {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 60px;  
+    padding: 60px;
   }
 
   .part-one {
@@ -215,7 +214,7 @@
   .part-two > img {
     height: 415px;
   }
-        
+
   .title-one {
     font-family: 'Crete Round', serif;
     font-style: normal;
@@ -225,28 +224,28 @@
     font-weight: 400;
     width: 350px;
   }
-        
+
   .line {
     width: 525px;
     color: #212121;
     align-self: center;
   }
-        
+
   .part-two {
     display: grid;
     grid-template-columns: auto auto;
     gap: 8px;
     height: 500px;
   }
-        
+
   .card-one {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     height: 315px;
-    padding-top: 0px;
+    padding-top: 0;
   }
-        
+
   .post {
     font-family: 'Crete Round', serif;
     font-style: normal;
@@ -256,7 +255,7 @@
     color: #091e42;
     font-weight: 400;
   }
-        
+
   .para-one {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -266,26 +265,24 @@
     vertical-align: top;
     color: #091e42;
   }
-        
+
   .web {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-        
-    padding-bottom: 20px;
     font-family: 'Inter', sans-serif;
     font-size: 15px;
     line-height: 20px;
     line-height: 110%;
     color: #091e42;
-    padding: 0 60px 0 0;
+    padding-bottom: 60px;
     gap: 12px;
   }
-        
+
   .web > li {
     padding-top: 10px;
   }
-        
+
   .web > .css {
     width: 49px;
     height: 30px;
@@ -293,7 +290,7 @@
     border: 1px solid black;
     text-align: center;
   }
-        
+
   .web > .html {
     width: 56px;
     height: 30px;
@@ -301,7 +298,7 @@
     border: 1px solid black;
     text-align: center;
   }
-        
+
   .web > .boot {
     width: 95px;
     height: 30px;
@@ -309,7 +306,7 @@
     border: 1px solid black;
     text-align: center;
   }
-        
+
   .web > .ruby {
     width: 61px;
     height: 30px;
@@ -317,7 +314,7 @@
     border: 1px solid black;
     text-align: center;
   }
-        
+
   .click {
     width: 124px;
     height: 68px;
@@ -327,7 +324,7 @@
     border-color: transparent;
     color: #f4f5f7;
   }
-        
+
   .click:hover {
     border: 2px solid blue;
   }
@@ -335,10 +332,11 @@
   .click-two {
     display: none;
   }
-        
+
   .card-two > .x {
     display: none;
   }
+
   .card-three > .y {
     display: flex;
     flex-direction: column;
@@ -354,7 +352,7 @@
     justify-content: center;
     gap: 12px;
   }
-        
+
   .card-three > .y > .data {
     padding: 0 16px 0 16px;
     font-family: 'Crete Round', serif;
@@ -365,7 +363,7 @@
     vertical-align: top;
     color: #fff;
   }
-        
+
   .part-three > .card-three > .y > .para-two {
     padding: 0 16px 0 16px;
     font-family: 'Inter', sans-serif;
@@ -376,7 +374,7 @@
     vertical-align: top;
     color: #fff;
   }
-        
+
   .part-three > .card-three > .y > .web-two {
     display: flex;
     flex-direction: row;
@@ -390,7 +388,7 @@
     line-height: 110%;
     color: #fff;
   }
-        
+
   .y > .web-two > .html {
     width: 56px;
     height: 30px;
@@ -399,7 +397,7 @@
     list-style: none;
     text-align: center;
   }
-        
+
   .y > .web-two > .boot {
     width: 95px;
     height: 30px;
@@ -408,7 +406,7 @@
     list-style: none;
     text-align: center;
   }
-        
+
   .y > .web-two > .ruby {
     width: 61px;
     height: 30px;
@@ -418,5 +416,3 @@
     text-align: center;
   }
 }
-        
-  
