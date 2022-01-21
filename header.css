@@ -38,7 +38,7 @@
   display: none;
 }
 
-.bars > ul > li > a > .humberger {
+.bars > ul > .a {
   display: flex;
 }
   
@@ -111,7 +111,7 @@
     justify-content: center;
   }
 
-  .bars > ul > li > a > .humberger {
+  .bars > ul > .a{
     display: none;
   }
       
@@ -129,10 +129,6 @@
     background-position: bottom right;
   }
 
-  
-
-
-  
   .unordered > .contacts {
     display: flex;
     flex-direction: column;

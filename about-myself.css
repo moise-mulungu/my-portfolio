@@ -138,8 +138,9 @@
   .myself {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     margin-left: 142px;
+    gap: 26px;
     background-image: url("Group1.png");
     background-repeat: no-repeat;
   }
@@ -159,9 +160,14 @@
   .full-list {
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 26px;
+    gap: 16px;
     padding-top: 60px;
     padding-bottom: 66px;
+  }
+
+  .full-list > .list-one, .list-two, .list-three {
+    margin-left: 56px;
+    text-align: left;
   }
       
 }
