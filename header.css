@@ -107,7 +107,7 @@
     font-style: normal;
     list-style-type: none;
     color: #fff5e1;
-    margin-left: 130px; 
+    margin-left: 130px;
   }
 
   .logo {
@@ -115,15 +115,7 @@
   }
 
   @keyframes move {
-    50% {transform: rotate(360deg);} 
-  }
-
-  .bars > ul > li > a:hover {
-    border-bottom: 5px solid #ff6b00;
-  }
-
-  .bars {
-    margin-right: 130px;
+    50% { transform: rotate(360deg); }
   }
 
   .bars > ul > li > a {
@@ -135,6 +127,14 @@
     font-weight: 600;
     font-style: normal;
     color: #fff5e1;
+  }
+
+  .bars > ul > li > a:hover {
+    border-bottom: 5px solid #ff6b00;
+  }
+
+  .bars {
+    margin-right: 130px;
   }
 
   .bars > ul > li > a > .hide {
