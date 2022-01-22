@@ -1,3 +1,4 @@
+
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -109,7 +110,8 @@
   .view-form {
     display: grid;
     grid-template-columns: auto auto;
-    padding-right: 60px;
+    width: 90%;
+    margin: 0 auto;
     gap: 38px;
     text-align: left;
   }
@@ -123,6 +125,10 @@
     line-height: 44px;
     line-height: 114%;
     text-align: left;
+  }
+
+  .view br {
+    display: none;
   }
 
   form {
@@ -179,7 +185,8 @@
     opacity: 0.2;
     align-self: center;
     margin-top: 25px;
-    width: 100%;
+    width: 160%;
+    margin-left: -10%;
   }
 
   .line-four {
