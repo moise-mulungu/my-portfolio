@@ -173,6 +173,14 @@
     list-style: none;
   }
 
+  .contact-form > .line-three {
+    background-color: #dfe1e6;
+    opacity: 0.2;
+    align-self: center;
+    margin-top: 25px;
+  }
+  
+
   .line-four {
     display: none;
   }

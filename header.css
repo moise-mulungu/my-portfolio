@@ -89,6 +89,8 @@
 }
 
 @media screen and (min-width: 992px) {
+  @import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap');
+
   .toolbar {
     display: flex;
     flex-direction: row;
@@ -98,11 +100,35 @@
     width: 100vw;
   }
 
+  .logo > a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    list-style-type: none;
+    color: #fff5e1;
+    margin-left: 130px;
+  }
+
+  .bars {
+    margin-right: 130px;
+  }
+
   .bars > ul > li > a {
     display: flex;
     justify-content: center;
     text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
     color: #fff5e1;
+  }
+
+  .bars > ul > li > a > .hide {
+    border: 2px solid #67798e;
+    border-radius: 4px;
+
   }
 
   .bars > ul > .a {
@@ -113,11 +139,12 @@
     display: grid;
     grid-template-columns: auto auto;
     gap: 100px;
+    padding-left: 40px;
     color: azure;
     padding-right: 50%;
-    background-image: url("Group-all.png");
-    background-repeat: no-repeat;
-    background-position: bottom right;
+    background-image: url("Group-all.png"), url("group-all.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom -90px right -40px, top -120px right -40px;
   }
 
   .unordered > .contacts {
@@ -125,7 +152,8 @@
     flex-direction: column;
     justify-content: space-around;
     gap: 22px;
-    margin-top: 100px;
-    color: #fff5e1;
+    margin-top: 120px;
+    color: #cfcfcf;
   }
+
 }
