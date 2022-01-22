@@ -6,7 +6,7 @@
 
 ![screenshot](./apScreenshot.png)
 
-I use this project to learn about Linters, Github Workflows, Css grid/flexbox, image query and hover.
+I use this project to learn about Linters, Github Workflows, Css grid/flexbox, image queries and hover.
 
 ## Built With
 
