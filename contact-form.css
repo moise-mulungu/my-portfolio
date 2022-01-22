@@ -103,6 +103,7 @@
     grid-template-columns: auto;
     justify-content: center;
     text-align: left;
+    width: 100%;
   }
 
   .view-form {
@@ -178,6 +179,7 @@
     opacity: 0.2;
     align-self: center;
     margin-top: 25px;
+    width: 100%;
   }
 
   .line-four {
