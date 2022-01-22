@@ -128,7 +128,6 @@
   .bars > ul > li > a > .hide {
     border: 2px solid #67798e;
     border-radius: 4px;
-
   }
 
   .bars > ul > .a {
@@ -155,5 +154,4 @@
     margin-top: 120px;
     color: #cfcfcf;
   }
-
 }
