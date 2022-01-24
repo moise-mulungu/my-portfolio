@@ -14,6 +14,9 @@ I use this project to learn about Linters, Github Workflows, Css grid/flexbox, i
 - CSS (grid, flexbox)
 - Visual Studio Code
 
+## Live Demo
+https://moise-mulungu.github.io/portfolio-mobile-version/
+
 ## Author
 
 👤 **Moise Mulungu**
