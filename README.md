@@ -15,7 +15,7 @@ I use this project to learn about Linters, Github Workflows, Css grid/flexbox, i
 - Visual Studio Code
 
 ## Live Demo
-https://moise-mulungu.github.io/portfolio-mobile-version/
+[link](https://moise-mulungu.github.io/portfolio-mobile-version/)
 
 ## Author
 
