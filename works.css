@@ -99,23 +99,21 @@
 }
 
 .web > .css {
-  width: 49px;
-  height: 30px;
+  width: fit-content;
   list-style: none;
   border: 1px solid black;
   text-align: center;
 }
 
 .web > .html {
-  width: 56px;
-  height: 30px;
+  width: fit-content;
   list-style: none;
   border: 1px solid black;
   text-align: center;
 }
 
 .web > .boot {
-  width: 95px;
+  width: fit-content;
   height: 30px;
   list-style: none;
   border: 1px solid black;
