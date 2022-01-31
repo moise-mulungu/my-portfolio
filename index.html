@@ -30,10 +30,26 @@
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="#"><i class="far fa-envelope hide" ></i></a></li>
-                <li class="a"><i class="fas fa-bars humberger"></i></li>
-            </ul>  
+                <li class="humberger"><i class="fas fa-bars"></i></li>  
+            </ul>
         </nav>
     </header>
+    <div class="mobile-menu">
+        <div class="time">
+            <h3>09:41</h3>
+            <ul class="icon-left">
+                <li><i class="fas fa-signal"></i></li>
+                <li><i class="fas fa-wifi"></i></li>
+                <li><i class="fas fa-battery-full"></i></li>
+            </ul>
+        </div>
+        <i class="fas fa-times cancel"></i>
+        <ul class="menu-list">
+            <li><a href="#work">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div> 
     <section class="main">
         <div class="unordered">
             <ul class="contacts">
@@ -44,7 +60,7 @@
                 <li><a href="#"><i class="fab fa-medium-m"></i></a></li>
             </ul>
         </div>    
-        <div>
+        <div id="about">
             <h1 class="intro">Hey there.<br>
                 I'm Moise
             </h1>
@@ -58,7 +74,8 @@
         </div>       
     </section>
 
-    <section class="works">
+    <section class="works" id="work">
+        
         <div class="part-one">
             <h2 class="title-one">My Recent Works</h2>
             <hr class="line">
@@ -308,7 +325,7 @@
         </div>
     </section>
     
-    <section class="contact-form">
+    <section class="contact-form" id="contact">
         <div class="view-form">
             <h2 class="view">I'm always<br>
                 interested in hearing<br>
@@ -337,5 +354,6 @@
         </footer>
         <hr class="line-four">
     </section>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: auto;
   background-color: #1c1a19;
-  padding: 0 24px 0 24px;
+  padding: 60px 24px 40px 24px;
   width: inherit;
 }
 
@@ -10,7 +10,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 100px;
+
+  /* padding-top: 100px;  */
   padding-bottom: 160px;
   background-image: url("Group1.png");
   background-repeat: no-repeat;
@@ -58,6 +59,29 @@
   margin-left: 5px;
 }
 
+.full-list {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  gap: 16px;
+  padding-right: 20px;
+}
+
+.list-one {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.list-two {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.list-three {
+  display: grid;
+  grid-template-columns: auto;
+}
+
 .list-one,
 .list-two,
 .list-three {
@@ -65,7 +89,6 @@
   color: #fff;
   font-size: 22px;
   text-align: center;
-  padding: 12px;
 }
 
 .list-one > .language {
