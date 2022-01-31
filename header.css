@@ -36,6 +36,11 @@
   color: #fff5e1;
 }
 
+.menu-box a {
+  text-decoration: none;
+  color: #fff5e1;
+}
+
 .contacts > li > a {
   color: #dbd8d7;
 }
@@ -63,24 +68,18 @@
   color: #fff5e1;
 }
 
-.menu-box a {
-  text-decoration: none;
-  color: #fff5e1;
-}
-
 .menu-list > li > a {
   color: #dbd8d7;
   font-size: 36px;
   text-decoration: none;
   border-bottom: solid white;
-
 }
 
 .bars > ul > li > a {
   display: none;
 }
 
-.bars > .hamburger {
+.bars > ul > .humburger {
   display: block;
 }
 
@@ -171,18 +170,8 @@
 
 @media screen and (min-width: 992px) {
   @import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap');
+
   .bars > ul > .humberger {
-    display: none;
-  }
-  .bars > .humberger {
-    display: none;
-  }
-
-  .mobile-menu {
-    display: none;
-  }
-
-  .fa {
     display: none;
   }
 
