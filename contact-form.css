@@ -91,11 +91,10 @@
 }
 
 .line-four {
-  width: 160px;
+  width: 33%;
   border: 5px solid black;
   border-radius: 4px;
   align-self: center;
-  margin-right: 55px;
 }
 
 @media screen and (min-width: 992px) {
