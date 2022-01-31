@@ -47,17 +47,41 @@
   list-style-type: none;
 }
 
+.menu-box {
+  display: flex;
+  flex-direction: column;
+  height: 24px;
+  padding: 24px;
+  margin-right: 30px;
+  border-bottom: solid #6f6c6b 1px;
+  padding-right: 30px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff5e1;
+}
+
+.menu-box a {
+  text-decoration: none;
+  color: #fff5e1;
+}
+
 .menu-list > li > a {
   color: #dbd8d7;
   font-size: 36px;
+  text-decoration: none;
+  border-bottom: solid white;
+
 }
 
 .bars > ul > li > a {
   display: none;
 }
 
-.bars > ul > .hamburger {
-  display: flex;
+.bar > .hamburger {
+  display: block;
 }
 
 .mobile-menu {
@@ -148,6 +172,18 @@
 @media screen and (min-width: 992px) {
   @import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap');
 
+  .bar > .hamburger {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
+  .fa {
+    display: none;
+  }
+  
   .toolbar {
     display: flex;
     flex-direction: row;
@@ -202,10 +238,10 @@
     border: 2px solid #67798e;
     border-radius: 4px;
   }
-
+/* 
   .bars > ul > .hamburger {
     display: none;
-  }
+  } */
 
   .main {
     display: grid;
