@@ -22,6 +22,7 @@
     </script>
 </head>
 <body>
+  <div class="overlay" id="overlay"></div>
     <header class="toolbar">
         <h3 class="logo"><a href="#">Moise Mulungu</a></h3>
         <nav class="bars">
@@ -75,7 +76,6 @@
     </section>
 
     <section class="works" id="work">
-        
         <div class="part-one">
             <h2 class="title-one">My Recent Works</h2>
             <hr class="line">
@@ -97,7 +97,16 @@
                     <li class="boot">boostrap</li>
                     <li class="ruby">Ruby</li>
                 </ul>
-                <button type="button" class="click">See Project</button>
+                <button type="button" data-model-target="#pop-up" class="click">See Project</button>
+                <div class="pop-up" id="pop-up">
+                  <div class="pop-up-header">
+                    <div class="pop-up-title"></div>
+                    <button data-close-button class="close-button">&times;</button>
+                  </div>
+                  <div class="pop-up-body">
+                    <p>hello</p>
+                  </div>
+                </div>
             </section>
         </div>
         <div class="part-three">
