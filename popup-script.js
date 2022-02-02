@@ -42,6 +42,7 @@ const detail = [{
   technologies: ['HTML' , 'CSS', 'Javascript']
 }]
 
+let overlay = document.getElementById('overlay');
 let btn = document.querySelectorAll('.click , .click-two');
 let popUp = document.getElementById('pop-up');
 popUp.classList.add('pop-up');
@@ -76,4 +77,3 @@ close.addEventListener('click', () => {
     overlay.style.opacity = 0 ;
   })
 
-const overlay = document.getElementById('overlay');
