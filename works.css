@@ -13,7 +13,6 @@
   box-sizing: border-box;
   background-color: white;
   overflow: auto;
-  /* transform: translate(-10% , -10%); */
 }
 
 .pop-up-header {
@@ -59,14 +58,14 @@
   max-height: 40px;
 }
 
-.pop-up-buttons{
+.pop-up-buttons {
   display: flex;
   flex-direction: row;
   padding: 3%;
 }
 
 .pop-up-button {
-  background-color: #FF6B00;
+  background-color: #ff6b00;
   padding: 12px;
   margin: 3%;
   align-items: center;
@@ -88,7 +87,7 @@
   color: #344563;
 }
 
-#desktop-image{
+#desktop-image {
   display: none;
 }
 
@@ -318,8 +317,7 @@
 }
 
 @media screen and (min-width: 992px) {
-  
-  #desktop-image{
+  #desktop-image {
     display: block;
   }
 
@@ -327,7 +325,7 @@
     display: none;
   }
 
-  .pop-up-container{
+  .pop-up-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
