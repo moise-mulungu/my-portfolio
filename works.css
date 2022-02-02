@@ -11,9 +11,7 @@
   margin: 5%;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
-  background-color:white;
-  /* z-index: 10; */
-  /* height: 100vh; */
+  background-color: white;
   overflow: auto;
   /* transform: translate(-10% , -10%); */
 }
@@ -35,7 +33,6 @@
   background-color: rgba(0, 0, 0, 0.5);
   pointer-events: none;
 }
-
 
 .close-button {
   font-size: 2rem;
@@ -94,7 +91,6 @@
 #desktop-image{
   display: none;
 }
-
 
 .popup-lists > li {
   border: 1px solid gray;
@@ -322,6 +318,7 @@
 }
 
 @media screen and (min-width: 992px) {
+  
   #desktop-image{
     display: block;
   }
