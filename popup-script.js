@@ -66,7 +66,7 @@ for (let i = 0; i < btn.length; i=i+1) {
 
 const close = document.getElementById('close-button');
 close.addEventListener('click', () => {
-  popUp.style.display = 'none;
+  popUp.style.display = 'none';
   overlay.style.opacity = 0;
   });
 
