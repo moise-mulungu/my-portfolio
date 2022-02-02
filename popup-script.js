@@ -8,37 +8,37 @@ const detail = [{
   title: 'Profesional Art Printing Data',
   image: ['popup-mobile.svg', 'popup-desktop.svg'],
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown",
-  technologies: ['HTML' , 'CSS', 'Javascript']
+  technologies: ['HTML', 'CSS', 'Javascript']
 },
 {
   title: 'Profesional Art Printing Data',
   image: ['popup-mobile.svg', 'popup-desktop.svg'],
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown",
-  technologies: ['HTML' , 'CSS', 'Javascript']
+  technologies: ['HTML', 'CSS', 'Javascript']
 },
 {
   title: 'Profesional Art Printing Data',
   image: ['popup-mobile.svg', 'popup-desktop.svg'],
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown",
-  technologies: ['HTML' , 'CSS', 'Javascript']
+  technologies: ['HTML', 'CSS', 'Javascript']
 },
 {
   title: 'Profesional Art Printing Data',
   image: ['popup-mobile.svg', 'popup-desktop.svg'],
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown",
-  technologies: ['HTML' , 'CSS', 'Javascript']
+  technologies: ['HTML', 'CSS', 'Javascript']
 },
 {
   title: 'Profesional Art Printing Data',
   image: ['popup-mobile.svg', 'popup-desktop.svg'],
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown",
-  technologies: ['HTML' , 'CSS', 'Javascript']
+  technologies: ['HTML', 'CSS', 'Javascript']
 },
 {
   title: 'Profesional Art Printing Data',
   image: ['popup-mobile.svg', 'popup-desktop.svg'],
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown",
-  technologies: ['HTML' , 'CSS', 'Javascript']
+  technologies: ['HTML', 'CSS', 'Javascript']
 }];
 
 const overlay = document.getElementById('overlay');
@@ -55,10 +55,10 @@ function popupWin(order) {
   <li>${detail[order].technologies[1]}</li>
   <li>${detail[order].technologies[2]}</li>
   </ul>`;
-  document.querySelector('.pop-up-text').innerHTML = `<p>${detail[order].description}</p>`
+  document.querySelector('.pop-up-text').innerHTML = `<p>${detail[order].description}</p>`;
 }
 
-for (let i = 0; i < btn.length; i=i+1) {
+for (let i = 0; i < btn.length; i += 1) {
   btn[i].addEventListener('click', () => {
     popupWin(i);
   });
@@ -68,5 +68,4 @@ const close = document.getElementById('close-button');
 close.addEventListener('click', () => {
   popUp.style.display = 'none';
   overlay.style.opacity = 0;
-  });
-
+});
