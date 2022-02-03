@@ -43,6 +43,7 @@ const detail = [{
 
 const overlay = document.getElementById('overlay');
 const btn = document.querySelectorAll('.click , .click-two');
+const mobileBtn = document.querySelectorAll('.click , .mobile-btn');
 const popUp = document.getElementById('pop-up');
 popUp.classList.add('pop-up');
 
