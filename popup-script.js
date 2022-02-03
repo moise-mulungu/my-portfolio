@@ -59,9 +59,10 @@ function popupWin(order) {
 }
 
 for (let i = 0; i < btn.length; i += 1) {
-  btn[i].addEventListener('click', () => {
-    popupWin(i);
+  btn[i].addEventListener('click', (e) => {
+    popupWin(e.currentTarget.index);
   });
+  btn[i].index = i - detail.length;
 }
 
 const close = document.getElementById('close-button');
