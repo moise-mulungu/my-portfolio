@@ -42,8 +42,6 @@
   opacity: 1;
 }
 
-
-
 .works {
   display: grid;
   justify-content: center;
@@ -240,7 +238,7 @@
   text-align: center;
 }
 
-.card-three > .y {
+.card-three > .y, .z {
   display: none;
 }
 
@@ -390,6 +388,14 @@
     background-image: url("backimg1.png");
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .card-three > .z {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("deskimg.png");
+    background-repeat: no-repeat;
   }
 
   .part-three > .card-three {
