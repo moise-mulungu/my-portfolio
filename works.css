@@ -1,4 +1,5 @@
 .pop-up {
+<<<<<<< HEAD
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -27,10 +28,37 @@
 }
 
 #overlay {
+=======
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: none;
+  flex-direction: column;
+  align-self: center;
+  padding: 5%;
+  margin: 5%;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  background-color: white;
+  overflow: auto;
+}
+
+.pop-up-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.overlay {
+>>>>>>> 1179c1653d83931064f8182eb9848cf13fe65769
   position: fixed;
   opacity: 0;
   top: 0;
   bottom: 0;
+<<<<<<< HEAD
   right: 0;
   left: 0;
   background-color: rgba( 0, 0, 0, 0.5);
@@ -40,6 +68,95 @@
 #overlay.active {
   pointer-events: all;
   opacity: 1;
+=======
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+.close-button {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.tech {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  line-height: 110%;
+  color: #091e42;
+  padding: 0 60px 0 0;
+  gap: 12px;
+}
+
+.tech li {
+  list-style: none;
+  border: 1px solid black;
+  text-align: center;
+  padding: 3%;
+  max-height: 40px;
+}
+
+.pop-up-buttons {
+  display: flex;
+  flex-direction: row;
+  padding: 3%;
+}
+
+.pop-up-button {
+  background-color: #ff6b00;
+  padding: 12px;
+  margin: 3%;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  color: white;
+  border: none;
+}
+
+.pop-up-text p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+#desktop-image {
+  display: none;
+}
+
+.popup-lists > li {
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+.popup-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.popup-buttons > button {
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #f4f5f7;
+  background-color: #ff6b00;
+  border-color: transparent;
+}
+
+.pop-up-desk {
+  display: none;
+>>>>>>> 1179c1653d83931064f8182eb9848cf13fe65769
 }
 
 .works {
@@ -243,6 +360,24 @@
 }
 
 @media screen and (min-width: 992px) {
+  #desktop-image {
+    display: block;
+  }
+
+  #mobile-image {
+    display: none;
+  }
+
+  .pop-up-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .pop-up-text p {
+    padding: 5%;
+  }
+
   .works {
     display: flex;
     flex-direction: column;
