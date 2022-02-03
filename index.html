@@ -355,12 +355,13 @@
                 chat please get in
             </h2>
             <form action="https://formspree.io/f/xzbodvoe" method="post">
-                <input type="text" class="input" placeholder="Full name" name="Full name" required maxlength="30">
+                <input type="text" id="name" class="input" placeholder="Full name" name="Full name" required maxlength="30">
                 <hr>
-                <input type="email" class="input" placeholder="Email address" name="Email address" required>
+                <input type="email" id="email" class="input" placeholder="Email address" name="Email address" required>
                 <hr>
                 <textarea class="box" placeholder="Enter text here" required maxlength="500"></textarea>
                 <button type="submit" class="touch">Get in touch</button>
+                <p class="warning" id="warning"></p>
             </form>
         </div>
         <hr class="line-three">
@@ -376,6 +377,7 @@
         <hr class="line-four">
     </section>
     <script src="popup-script.js"></script>
+    <script src="validation.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
