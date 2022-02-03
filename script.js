@@ -10,11 +10,11 @@ function print() {
 }
 humberger.addEventListener('click', print);
 
-function close() {
+function closed() {
   mobileMenu.style.display = 'none';
 }
-cancel.addEventListener('click', close);
+cancel.addEventListener('click', closed);
 
 for (let i = 0; i < lists.length; i += 1) {
-  lists[i].addEventListener('click', close);
+  lists[i].addEventListener('click', closed);
 }

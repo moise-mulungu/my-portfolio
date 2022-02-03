@@ -482,6 +482,17 @@
     background-size: cover;
   }
 
+  .card-three > .y:hover {
+    background: url("backimg4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .card-three > .y:hover .click-two {
+    display: block;
+  }
+
   .part-three > .card-three {
     display: grid;
     grid-template-columns: auto auto auto;
