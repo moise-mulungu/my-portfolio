@@ -58,15 +58,19 @@ function popupWin(order) {
   document.querySelector('.pop-up-text').innerHTML = `<p>${detail[order].description}</p>`;
 }
 
-for (let i = 0; i < btn.length; i += 1) {
-  btn[i].addEventListener('click', (e) => {
-    popupWin(e.currentTarget.index);
-  });
-  btn[i].index = i - detail.length;
-}
-
 const close = document.getElementById('close-button');
 close.addEventListener('click', () => {
   popUp.style.display = 'none';
   overlay.style.opacity = 0;
 });
+
+for (let i = 0; i < detail.length; i += 1) {
+  btn[i].addEventListener('click', (e) => {
+    popupWin(e.currentTarget.index);
+  });
+  mobileBtn[i].addEventListener('click', (e) => {
+    popupWin(e.currentTarget.index);
+  });
+  btn[i].index = i;
+  mobileBtn[i].index = i;
+}
