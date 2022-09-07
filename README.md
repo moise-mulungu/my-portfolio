@@ -4,7 +4,7 @@
 
 > This is another project completing the mobile menu page.
 
-![screenshot](./menu.png)
+![screenshot](./image/menu.png)
 
 In this project, we worked on mobile menu by using javascript event listeners to make the page interactive.
 

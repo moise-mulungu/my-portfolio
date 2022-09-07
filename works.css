@@ -149,7 +149,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url("backimg.png");
+  background-image: url("image/backimg.png");
   background-repeat: no-repeat;
 }
 
@@ -477,13 +477,13 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    background-image: url("backimg1.png");
+    background-image: url("image/backimg1.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .card-three > .y:hover {
-    background: url("backimg4.png");
+    background: url("image/backimg4.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
