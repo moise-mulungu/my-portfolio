@@ -32,13 +32,13 @@
   <div class="pop-up-doby">
     <div class="pop-up-tech"></div>
     <div class="pop-up-container">
-      <img src="popup-mobile.svg" id="mobile-image" alt="this is mobile popup image">
-      <img src="popup-desktop.svg" id="desktop-image" alt="this is a desktop popup image">
+      <img src="image/popup-mobile.svg" id="mobile-image" alt="this is mobile popup image">
+      <img src="image/popup-desktop.svg" id="desktop-image" alt="this is a desktop popup image">
       <div class="details">
         <div class="pop-up-text"></div>
         <div class="pop-up-buttons">
-          <button type="submit" class="pop-up-button">See Live <img src="live-Icon.svg" alt="this is for live version"></button>
-          <button type="submit" class="pop-up-button">See Source <img src="Icon-GitHub.svg" alt="this is for github source"></button>
+          <button type="submit" class="pop-up-button">See Live <img src="image/live-Icon.svg" alt="this is for live version"></button>
+          <button type="submit" class="pop-up-button">See Source <img src="image/Icon-GitHub.svg" alt="this is for github source"></button>
         </div>
       </div>
     </div>
@@ -103,21 +103,18 @@
             <hr class="line">
         </div>
         <div class="part-two">
-            <img src="placeholder.png" alt="A woman stretching her body in a gym">
+            <img src="image/placeholder.png" alt="A woman stretching her body in a gym">
             <section class="card-one">  
-                <h3 class="post"> Multi-post stories</h3>
-                <p class="para1">A daily section of privately personalized<br>
-                    reads: no account or sign-up are required.<br>
-                    has been the industry standard's dummy<br>
-                    text ever the 1500s, when an<br>
-                    unknown printer took a standard dummy<br>
-                    text. 
+                <h3 class="post"> E-Pay</h3>
+                <p class="para1">A daily money transaction application<br>
+                    This is a web application that helps you to manage your budget:<br>
+                    you have a list of transactions associated with a category,<br>
+                    so that you can see how much money you spent and on what.
                 </p>
                 <ul class="web">
                     <li class="css">css</li>
                     <li class="html">html</li>
-                    <li class="boot">boostrap</li>
-                    <li class="ruby">Ruby</li>
+                    <li class="ruby">Ruby on Rails</li>
                 </ul>
                 <button type="button" data-model-target="#pop-up" class="click">See Project</button>
                 <div class="pop-up" id="pop-up">
@@ -144,8 +141,8 @@
                     </p>
                     <ul class="web-two">
                         <li class="html">html</li>
-                        <li class="boot">boostrap</li>
-                        <li class="ruby">Ruby</li>
+                        <li class="boot">CSS</li>
+                        <li class="ruby">Ruby on Rails</li>
                     </ul>
                     <button type="button" class="click-two">See Project</button>  
                 </div>
@@ -261,7 +258,7 @@
                         <li class="boot">boostrap</li>
                         <li class="ruby">Ruby</li>
                     </ul>
-                    <button type="button" class="click-two">See Project</button>
+                    <button type="button" class="click-two mobile-btn">See Project</button>
                 </div>
                 <div class="x">
                     <h2 class="data">Professional Art <br>
@@ -277,7 +274,7 @@
                         <li class="boot">boostrap</li>
                         <li class="ruby">Ruby</li>
                     </ul>
-                    <button type="button" class="click-two">See Project</button>
+                    <button type="button" class="click-two mobile-btn">See Project</button>
                 </div>
                 <div class="x">
                     <h2 class="data">Professional Art <br>
@@ -293,7 +290,7 @@
                         <li class="boot">boostrap</li>
                         <li class="ruby">Ruby</li>
                     </ul>
-                    <button type="button" class="click-two">See Project</button>
+                    <button type="button" class="click-two mobile-btn">See Project</button>
                 </div>
                 <div class="x">
                     <h2 class="data">Professional Art <br>
@@ -309,7 +306,7 @@
                         <li class="boot">boostrap</li>
                         <li class="ruby">Ruby</li>
                     </ul>
-                    <button type="button" class="click-two">See Project</button>
+                    <button type="button" class="click-two mobile-btn">See Project</button>
                 </div>
                 <div class="x">
                     <h2 class="data">Professional Art <br>
@@ -325,7 +322,7 @@
                         <li class="boot">boostrap</li>
                         <li class="ruby">Ruby</li>
                     </ul>
-                    <button type="button" class="click-two">See Project</button>
+                    <button type="button" class="click-two mobile-btn">See Project</button>
                 </div>
             </section>
         </div>           
@@ -346,14 +343,14 @@
         <hr class="line-two">
         <div class="full-list">
             <ul class="list-one">
-                <li class="language"><img src="diam.png" alt="a diamond-shape figure"> Language</li>
+                <li class="language"><img src="image/diam.png" alt="a diamond-shape figure"> Language</li>
                 <li>Javascript</li>
                 <li>Ruby</li>
                 <li>Html</li>
                 <li>Css</li>
             </ul>    
             <ul class="list-two">
-                <li class="frameworks"><img src="rect.png" alt="a rectangle-shape figure"> Frameworks</li>
+                <li class="frameworks"><img src="image/rect.png" alt="a rectangle-shape figure"> Frameworks</li>
                 <li>Boostrap</li>
                 <li>Ruby on Rails</li>
                 <li>RSPeC</li>
@@ -361,7 +358,7 @@
                 <li>Selenium</li>
             </ul>
             <ul class="list-three">
-                <li class="skills"> <img src="squa.png" alt="a square-shape figure"> Skills</li>
+                <li class="skills"> <img src="image/squa.png" alt="a square-shape figure"> Skills</li>
                 <li>Codelit</li>
                 <li>Github</li>
                 <li>Codepen</li>
@@ -381,12 +378,13 @@
                 chat please get in
             </h2>
             <form action="https://formspree.io/f/xzbodvoe" method="post">
-                <input type="text" class="input" placeholder="Full name" name="Full name" required maxlength="30">
+                <input type="text" id="name" class="input" placeholder="Full name" name="Full name" required maxlength="30">
                 <hr>
-                <input type="email" class="input" placeholder="Email address" name="Email address" required>
+                <input type="email" id="email" class="input" placeholder="Email address" name="Email address" required>
                 <hr>
                 <textarea class="box" placeholder="Enter text here" required maxlength="500"></textarea>
                 <button type="submit" class="touch">Get in touch</button>
+                <p class="warning" id="warning"></p>
             </form>
         </div>
         <hr class="line-three">
@@ -402,6 +400,7 @@
         <hr class="line-four">
     </section>
     <script src="popup-script.js"></script>
+    <script src="validation.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
