@@ -16,7 +16,7 @@ In this project, we worked on mobile menu by using javascript event listeners to
 - JavaScript.
 
 ## Live Demo
-[link](https://moise-mulungu.github.io/portfolio-mobile-version/)
+[link](https://moise-mulungu.github.io/my-portfolio/)
 
 ## Author1
 
