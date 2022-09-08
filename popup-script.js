@@ -1,8 +1,8 @@
 const detail = [{
-  title: 'Multi-Post Stories',
+  title: 'E-Pay',
   image: ['popup-mobile.svg', 'popup-desktop.svg'],
-  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown",
-  technologies: ['HTML', 'CSS', 'Javascript'],
+  description: 'This is a web application that helps you to manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
+  technologies: ['HTML', 'CSS', 'Ruby on Rails'],
 },
 {
   title: 'Profesional Art Printing Data',

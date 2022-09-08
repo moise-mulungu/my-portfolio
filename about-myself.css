@@ -12,7 +12,7 @@
   justify-content: center;
   padding-top: 100px;
   padding-bottom: 160px;
-  background-image: url("Group1.png");
+  background-image: url("image/Group1.png");
   background-repeat: no-repeat;
   background-position: bottom 20px right;
 }
@@ -140,7 +140,7 @@
     justify-content: space-around;
     margin-left: 142px;
     gap: 26px;
-    background-image: url("Group-all2.png");
+    background-image: url("image/Group-all2.png");
     background-repeat: no-repeat;
     background-position: bottom right;
   }

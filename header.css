@@ -13,7 +13,7 @@
   background-color: #1c1a19;
   color: azure;
   padding: 120px 24px 120px 24px;
-  background-image: url("Group.png");
+  background-image: url("imge/Group.png");
   background-repeat: no-repeat;
   background-position: bottom -36px right;
   max-width: 100%;
@@ -241,7 +241,7 @@
     padding-left: 40px;
     color: azure;
     padding-right: 50%;
-    background-image: url("Group-all.png"), url("group-all.png");
+    background-image: url("image/Group-all.png"), url("image/group-all.png");
     background-repeat: no-repeat, no-repeat;
     background-position: bottom -90px right -40px, top -120px right -40px;
   }
