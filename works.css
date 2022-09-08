@@ -524,6 +524,7 @@
 
   .part-three > .card-three > .y > .web-two {
     display: flex;
+
     /* flex-direction: row; */
     justify-content: space-around;
     padding: 0 16px 0 16px;
