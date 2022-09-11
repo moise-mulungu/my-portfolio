@@ -173,6 +173,7 @@
   background: #ff6b00;
   border-color: transparent;
   color: #f4f5f7;
+  position: relative;
 }
 
 .click-two:hover {
@@ -349,6 +350,8 @@
 
   .part-two > img {
     height: 415px;
+    border-radius: 8px;
+    box-shadow: 12px 16px 16px rgba(108, 108, 151, 0.24);
   }
 
   .title-one {
@@ -359,6 +362,7 @@
     color: #1c1a19;
     font-weight: 400;
     width: 350px;
+    text-shadow: 2px 2px 4px #94acda;
   }
 
   .line {
@@ -477,20 +481,25 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    background-image: url("image/backimg1.png");
+    /* background-image: url("image/backimg1.png"); */
     background-repeat: no-repeat;
     background-size: cover;
+    border: 2px solid #1143c0;
+    border-radius: 8px;
+    box-shadow: 0 16px 24px 2px rgba(165, 176,1500px 194, 0.14), 0 6px 30px 5px rgba(165, 176, 194, 0.14), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
   }
 
   .card-three > .y:hover {
-    background: url("image/backimg4.png");
+    /* background: url("image/backimg4.png"); */
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    /* background-size: cover; */
+    /* background-position: center; */
+    position: block;
   }
 
   .card-three > .y:hover .click-two {
     display: block;
+    
   }
 
   .part-three > .card-three {
