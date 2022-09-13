@@ -149,8 +149,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url("image/backimg.png");
-  background-repeat: no-repeat;
+  border: transparent;
+  box-shadow: #344563 0 8px 24px;
+  border-radius: 4px;
 }
 
 .click {
@@ -168,11 +169,14 @@
 
 .click-two {
   width: 100%;
-  height: 48px;
+  height: 40px;
   text-align: center;
+  padding-top: 10px;
   background: #ff6b00;
   border-color: transparent;
   color: #f4f5f7;
+  position: relative;
+  text-decoration: none;
 }
 
 .click-two:hover {
@@ -225,11 +229,11 @@
 }
 
 .web > .html {
-  width: 56px;
+  width: 49px;
   height: 30px;
   list-style: none;
-  border: 1px solid black;
   text-align: center;
+  border: 1px solid black;
 }
 
 .web > .boot {
@@ -256,38 +260,26 @@
   line-height: 44px;
   line-height: 108%;
   vertical-align: top;
-  color: #fff;
 }
 
 .para-two {
   padding: 0 16px 0 16px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-size: 16px;
   line-height: 24px;
   line-height: 124%;
   vertical-align: top;
-  color: #fff;
 }
 
 .web-two {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  padding: 0 16px 0 16px;
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-size: 15px;
-  line-height: 20px;
-  line-height: 110%;
-  color: #fff;
-  padding-bottom: 20px;
 }
 
 .web-two > .html {
-  width: 56px;
-  height: 30px;
   background-color: rgba(255, 255, 255, 0.24);
   color: #fff;
   list-style: none;
@@ -312,8 +304,15 @@
   text-align: center;
 }
 
-.card-three > .y {
+.card-three > .y,
+.z {
   display: none;
+}
+
+.part-two > img {
+  height: 400px;
+  border-radius: 8px;
+  box-shadow: 12px 16px 16px rgba(108, 108, 151, 0.24);
 }
 
 @media screen and (min-width: 992px) {
@@ -349,6 +348,8 @@
 
   .part-two > img {
     height: 415px;
+    border-radius: 8px;
+    box-shadow: 12px 16px 16px rgba(108, 108, 151, 0.24);
   }
 
   .title-one {
@@ -476,28 +477,23 @@
   .card-three > .y {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    background-image: url("image/backimg1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .card-three > .y:hover {
-    background: url("image/backimg4.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.24);
+    border: 5px transparent;
+    border-radius: 8px;
+    box-shadow: 6px 8px 6px 8px rgba(108, 108, 151, 0.24);
   }
 
   .card-three > .y:hover .click-two {
     display: block;
+    text-decoration: none;
   }
 
   .part-three > .card-three {
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: center;
-    gap: 12px;
+    gap: 22px;
   }
 
   .card-three > .y > .data {
@@ -508,12 +504,12 @@
     line-height: 44px;
     line-height: 108%;
     vertical-align: top;
-    color: #fff;
+    color: #ff6b00;
   }
 
   .part-three > .card-three > .y > .para-two {
     padding: 0 16px 0 16px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Crete Round', serif;
     font-style: normal;
     font-size: 16px;
     line-height: 24px;
@@ -526,20 +522,24 @@
     display: flex;
 
     /* flex-direction: row; */
-    justify-content: space-around;
-    padding: 0 16px 0 16px;
+
+    /* justify-content: space-around; */
+
+    /* padding: 0 16px 0 16px; */
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-size: 15px;
-    line-height: 20px;
-    line-height: 110%;
-    color: #fff;
+
+    /* font-style: normal; */
+
+    /* font-size: 15px; */
+
+    /* line-height: 20px; */
+
+    /* line-height: 110%; */
+    color: rgb(26, 25, 25);
   }
 
   .y > .web-two > .html {
-    width: 56px;
-    height: 30px;
     background-color: rgba(255, 255, 255, 0.24);
     color: #fff;
     list-style: none;

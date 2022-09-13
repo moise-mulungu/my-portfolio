@@ -1,4 +1,4 @@
-// const mobileMenu = document.querySelector('.mobile-menu');
+// hamburger menu
 const humberger = document.querySelector('.humberger');
 const mobileMenu = document.querySelector('.mobile-menu');
 const cancel = document.querySelector('.cancel');
