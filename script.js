@@ -18,39 +18,3 @@ cancel.addEventListener('click', closed);
 for (let i = 0; i < lists.length; i += 1) {
   lists[i].addEventListener('click', closed);
 }
-
-// pop-up 
-
-const popups = [{
-  id: 'con-1',
-  name: 'Tonic',
-  desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and .",
-  mobileImage: '',
-  desktopImage: '',
-  skillSet: updateSkills('html', 'css', 'javaScript'),
-  jobProfile: createProfile('CANOPY', 'Back End Dev', 2018),
-},
-{
-  id: 'con-2',
-  name: 'Tonic',
-  desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and .",
-  mobileImage: '',
-  desktopImage: '',
-  skillSet: updateSkills('html', 'css', 'javaScript'),
-  jobProfile: createProfile('CANOPY', 'Back End Dev', 2018),
-},
-{
-  id: 'con-1',
-  name: 'Tonic',
-  desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and .",
-  mobileImage: '',
-  desktopImage: '',
-  skillSet: updateSkills('html', 'css', 'javaScript'),
-  jobProfile: createProfile('CANOPY', 'Back End Dev', 2018),
-},
-
-}];
-
-function updateSkills(skill1 , skill2, skill){
-
-}
