@@ -229,8 +229,11 @@
 }
 
 .web > .html {
+  width: 49px;
+  height: 30px;
   list-style: none;
   text-align: center;
+  border: 1px solid black;
 }
 
 .web > .boot {
